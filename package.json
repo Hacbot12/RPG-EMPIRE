@@ -1,0 +1,27 @@
+{
+  "name": "empire-rpg-bot",
+  "version": "2.0.0",
+  "description": "A modular WhatsApp RPG game bot with economy, crime, police, gangs, and marriage systems",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "rpg",
+    "game",
+    "sqlite"
+  ],
+  "author": "Mr HackBot",
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.27.5",
+    "qrcode-terminal": "^0.12.0",
+    "better-sqlite3": "^9.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
